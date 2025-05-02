@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+
+img {
+    width: 2cm;
+}
+
+.header-class {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+nav {
+    text-align: end;
+    cursor: pointer;
+    background-color: darkgreen;
+    font-size: xx-large;
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+.section-heading {
+    text-align: center;
+    background-color: gainsboro;
+    font-size: x-large;
+}
+
+.btn {
+    background-color: #E67805;
+    color: white;
+    padding: 0.8rem 1.5em;
+    font-size: large;
+    border: none;
+}
+
+.btn-secondary {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.margin-center {
+    margin: 0 auto;
+}
+.primary-color {
+    color: #E67805;
+}
+
+.m-32 {
+    margin: 2rem 0;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    margin-bottom: 20px;
+    font-style: normal;
+
+
+}
+
+.input, .textarea, .select {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid #ccc;
+}
+
+.main-content {
+   
+    padding: 2rem;
+   width: 100%;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.term-box {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-weight: lighter;
+}
+
+
+
+
+footer {
+    background: #023c1c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  footer span {
+    color: #f57c00;
+  }
+  
+  .footer-links, .footer-contact {
+    margin-top: 20px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links a, .footer-contact p {
+    color: white;
